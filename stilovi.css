@@ -1,0 +1,125 @@
+@charset "utf-8";
+h1{
+	font-family: "FilipOkanovic";
+	src:url ("font/FilipOkanovic.ttf");
+	font-size: 46px;
+	
+}
+h2{
+	font-family: "CabinSketch", sans-serif; 
+}
+.Uvod{
+	font-size: 24px;
+}
+.obicni_paragrafi {
+	font-family: "CabinSketch", sans-serif; 
+	text-align:center;
+	color: white;
+	background-color: black;
+	padding: 20px; 
+	
+}
+
+.o_meni_tekst {
+	font-family: "CabinSketch", sans-serif; 
+	text-align: center;
+
+	display: block;
+	
+}
+.vjezbe_tekst_l {
+	font-family: "CabinSketch", sans-serif;
+	
+}
+
+h3 {
+	text-align:center;
+	background-color: black;
+	padding: 20px; 
+}
+
+.slikeomeni {
+	width: 400px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slikesredina {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+.slikeljevo {
+	align: left;
+	margin-left: 20%;
+	margin-right: 25px;
+	margin-bottom: 5%;
+	
+}
+
+.slikedesno {
+	align: right;
+	margin-left: 25px;
+	margin-right:10%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden; /* Clear floats */
+	text-align: center;
+}
+
+.image-above {
+    float: left;
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+.side-by-side {
+    display: inline-block;
+    
+}
+
+.side-image {
+    display: inline-block;
+    vertical-align: top;
+	margin-right: 10px;
+	margin-bottom: 25px;
+}
+
+.side-image:last-child {
+    margin-right: 0;
+}
+
+.gumb{
+	
+}
+
+
+	ul {	/*centriranje*/
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 450px;
+			
+			} 
+	li {	display:inline; /*prikaz u jednom redu*/
+			background-color:black;
+			padding:20px;
+			border: 2px solid black;
+			
+		}
+	li:active {background-color:white;} /*kada kliknemo na li mijenja se boja*/
+		
+	li a {	color:white; 
+			font-family: "CabinSketch", sans-serif; 
+			/*font-family: "Montserrat", sans-serif; */
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
